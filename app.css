@@ -1,0 +1,434 @@
+/* prettier-ignore */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+/* prettier-ignore */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+html {
+  font-size: 10px;
+}
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.first-section {
+  max-width: 120rem;
+  margin: 0 auto;
+  margin-bottom: 0;
+}
+
+.first-section img {
+  position: relative;
+  width: 120rem;
+  height: 70rem;
+}
+.container {
+  max-width: 100rem;
+  margin: 0 auto;
+}
+.header-section {
+  width: 120rem;
+  height: 6rem;
+  background-color: rgb(128, 128, 128, 0.4);
+  position: absolute;
+  top: 0rem;
+}
+
+.main-header {
+  height: 6rem;
+  max-width: 100rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navbar-menu a {
+  font-size: 2rem;
+}
+.navbar-menu {
+  display: flex;
+  justify-content: space-between;
+  width: 40rem;
+}
+.logo {
+  width: 50rem;
+}
+.logo h2 {
+  font-size: 3rem;
+  font-weight: bolder;
+}
+.logo_part1 {
+  color: white;
+}
+.logo_part2 {
+  color: orangered;
+}
+.signup-button {
+  background-color: orangered;
+  color: white;
+  border: none;
+  font-size: 1.5rem;
+  padding: 1rem;
+  width: 10rem;
+  margin-left: 0.5rem;
+}
+
+.navbar-menu a {
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+}
+.navbar-menu a:hover {
+  color: orangered;
+}
+.first-section-text h2 {
+  color: whitesmoke;
+  font-size: 2rem;
+  font-weight: bolder;
+  text-align: center;
+}
+.first-section-text .logo_part1,
+.first-section-text h1 {
+  color: whitesmoke;
+  font-size: 7rem;
+  font-weight: bolder;
+  text-align: center;
+}
+.first-section-text h1 {
+  word-spacing: 0.3rem;
+}
+.become-member-button {
+  background-color: orangered;
+  color: white;
+  border: none;
+  font-size: 1.5rem;
+  padding: 1rem;
+  width: 20rem;
+  height: 5rem;
+}
+.first-section-text {
+  max-width: 80rem;
+  position: absolute;
+  top: 30rem;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.layer {
+  background-color: rgba(48, 47, 42, 0.7);
+  position: absolute;
+  top: 0;
+  margin: 0 auto;
+  width: 120rem;
+  height: 70rem;
+}
+.section-header h1 {
+  font-size: 3rem;
+  text-align: center;
+  font-weight: bold;
+}
+.section-header .logo_part1 {
+  color: black;
+}
+.section-header img {
+  position: relative;
+  left: 50%;
+  transform: translatex(-50%);
+  margin: 1rem auto 1rem auto;
+  width: 5rem;
+  height: 3rem;
+}
+
+.section-header {
+  margin: 0rem auto;
+}
+.second-section {
+  margin-top: 10rem;
+}
+.section-header p {
+  max-width: 60rem;
+  font-size: 1.5rem;
+  line-height: 1.5;
+  font-weight: bold;
+  color: gray;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 5rem;
+}
+
+.second-contents {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.plan-contents {
+  width: 48rem;
+  margin: 2rem auto;
+}
+.plan-contents img {
+  width: 10rem;
+  height: 10rem;
+  margin-right: 2rem;
+  float: left;
+  background-color: orange;
+  border-radius: 1rem;
+}
+.plan-contents h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #535659;
+}
+.plan-contents p {
+  margin-top: 1rem;
+  line-height: 1.5;
+  font-size: 1.5rem;
+  font-weight: 300;
+  color: gray;
+}
+.align-links a {
+  text-decoration: none;
+  font-weight: 700;
+  color: orangered;
+  font-size: 1.5rem;
+  display: block;
+  margin-top: 1.6rem;
+}
+.links {
+  text-decoration: none;
+  color: lightskyblue;
+}
+
+.second-section {
+  margin-bottom: 10rem;
+}
+.third-section {
+  max-width: 120rem;
+  height: 40rem;
+  margin: 0 auto;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.third-section img {
+  position: relative;
+  width: 120rem;
+  height: 30rem;
+  opacity: 1;
+  top: 0;
+  left: 0;
+}
+.third-section-text h1 {
+  text-align: center;
+  color: black;
+  font-size: 4rem;
+  font-weight: bolder;
+  margin-bottom: 1rem;
+}
+
+.third-section-text p {
+  line-height: 1.5;
+  font-size: 2rem;
+  text-align: center;
+  color: whitesmoke;
+  margin-bottom: 1rem;
+}
+
+.third-section-text {
+  position: absolute;
+  top: 8rem;
+  left: 10rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.fourth-section-content1-items {
+  box-shadow: 0 0 0.5rem 0.5rem whitesmoke;
+  width: 40rem;
+  height: 8rem;
+  padding-top: 2rem;
+  padding-left: 2rem;
+  margin-bottom: 1rem;
+}
+.fourth-section-content1-items img {
+  margin-right: 2rem;
+  width: 5rem;
+  height: 5rem;
+  float: left;
+}
+
+.fourth-section-content1-items h2 {
+  font-size: 2rem;
+  margin-top: 1.5rem;
+  font-weight: 600;
+  color: #535659;
+}
+.view-all {
+  width: 42rem;
+  height: 5rem;
+  background-color: orangered;
+  color: white;
+  border: none;
+  border-radius: 0.5rem;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.fourth-section-content1 {
+  margin: 0;
+  width: 30rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.fourth-section-content2 img {
+  width: 55rem;
+  height: 25rem;
+  margin-bottom: 2rem;
+}
+.fourth-section-content2 h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #535659;
+  margin-bottom: 2rem;
+}
+
+.fourth-section-content2 p {
+  width: 50rem;
+  text-align: start;
+  line-height: 2;
+  font-size: 1rem;
+  font-weight: 600;
+  color: gray;
+  margin-bottom: 2rem;
+}
+.view-schedule {
+  background-color: orangered;
+  width: 15rem;
+  height: 5rem;
+  color: white;
+  border: none;
+  border-radius: 0.1rem;
+  font-size: 1.5rem;
+}
+.fourth-section-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.fourth-section-content2 {
+  margin: 0;
+}
+
+.fourth-section {
+  margin-bottom: 10rem;
+}
+hr {
+  width: 100rem;
+}
+
+.fifth-section {
+  margin-top: 10rem;
+  margin-bottom: 10rem;
+}
+.trainers {
+  width: 30rem;
+  box-shadow: 0 0 0.5rem 0.5rem whitesmoke;
+}
+.trainers img {
+  margin: 2rem;
+  width: 25rem;
+  height: 25rem;
+}
+
+.trainers h2 {
+  font-size: 1rem;
+  color: red;
+  margin-left: 2rem;
+}
+
+.trainers h1 {
+  color: #535659;
+  font-size: 2rem;
+  font-weight: 800;
+  margin-left: 2rem;
+}
+
+.trainers p {
+  font-size: 1.5rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  color: gray;
+  line-height: 1.5;
+}
+.social-media-logo img {
+  width: 2rem;
+  height: 2rem;
+  margin-right: 0.1rem;
+}
+
+.fifth-section-items {
+  display: flex;
+  justify-content: space-between;
+}
+.main-footer {
+  width: 120rem;
+  height: 8rem;
+  background-color: whitesmoke;
+  margin: 0 auto;
+  margin-bottom: 5rem;
+}
+.main-footer p {
+  font-size: 1.5rem;
+  color: gray;
+  text-align: center;
+  padding-top: 3.5rem;
+}
